@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+div.form {
+	display: block;
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.usertable {
+	width: 600px padding: 10px;
+	border: 1px blue solid;
+}
+
+input[type=text] {
+	width: 250px;
+}
+input[type=password] {
+	width: 250px;
+}
+.label {
+	text-align: right; 
+	vertical-align: top;
+}
+
+.button {
+	text-align: center;
+}
+
+.formcontrol {
+	margin-left: 10px;
+}
+.validpass {
+	font-size: small;
+	color: green;
+	margin-left: 10px;
+}
+.error {
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
+table.offers {
+	border-spacing: 20px;
+	border: 1px grey solid;	
+}
+
+p.errorlogin {
+
+	color: red;
+}
